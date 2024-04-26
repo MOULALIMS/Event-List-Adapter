@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "374691561725",
+    "project_id": "reva-trail-2",
+    "storage_bucket": "reva-trail-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374691561725:android:a5cb4073270aa4715afe94",
+        "android_client_info": {
+          "package_name": "com.example.revatrail2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374691561725-dcsmjft0inpger9givqi74fqsk0aoupf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR2VLLby6HMJ6Rfht4sD3WiIiOFJkjlOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374691561725-dcsmjft0inpger9givqi74fqsk0aoupf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logout_button"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/ic_baseline_exit_to_app_24"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877">
+
+        <TextView
+            android:id="@+id/Technical_events"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/lavender_background1"
+            android:drawableStart="@drawable/computer"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:gravity="center"
+            android:padding="9dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="40dp"
+            android:text="Technical"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Sports_events"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/Technical_events"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/lavender_background1"
+            android:drawableStart="@drawable/ic_baseline_sports_24"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:gravity="center"
+            android:padding="9dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="40dp"
+            android:text="sports"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Cultural_events"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/Sports_events"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/lavender_background1"
+            android:drawableStart="@drawable/computer"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:gravity="center"
+            android:padding="9dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="40dp"
+            android:text="cultural"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addnewinmain"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="43dp"
+            android:textColor="@color/black"
+            android:background="@drawable/circle_add"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

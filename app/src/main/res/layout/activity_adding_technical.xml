@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lavender_border"
+    tools:context=".AddingTechnicalActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technical Form"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Enter the details of the event"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/lavender"/>
+
+    <EditText
+        android:id="@+id/technical_name_entry"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:hint="enter the name of the event"
+        android:background="@drawable/lavender_background1"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/lavender"/>
+
+    <EditText
+        android:id="@+id/technical_description_entry"
+        android:layout_width="400dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="8dp"
+        android:hint="description of the event"
+        android:background="@drawable/lavender_background1"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Link"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/lavender"/>
+
+    <EditText
+        android:id="@+id/technical_link_entry"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:hint="provide the link"
+        android:background="@drawable/lavender_background1"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/add_technical_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/lavender_border_black"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="add"/>
+</LinearLayout>
